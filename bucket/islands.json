@@ -1,0 +1,29 @@
+{
+    "version": "0.4.4",
+    "description": "Light-weight C++23 application framework hosting content as cartridges",
+    "homepage": "https://github.com/ian-miller-gz/islands",
+    "license": "AGPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ian-miller-gz/islands-packages/releases/download/0.4.4/islands-0.4.4-windows-x64.zip",
+            "hash": "4ec12bd34ce78fe0e058dfdddc382598b2e33c6c27264548beb19de5fbb44910"
+        }
+    },
+    "extract_dir": "islands",
+    "bin": [
+        [
+            "build\\Island.exe",
+            "islands"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/ian-miller-gz/islands-packages"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ian-miller-gz/islands-packages/releases/download/0.4.4/islands-0.4.4-windows-x64.zip"
+            }
+        }
+    }
+}
