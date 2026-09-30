@@ -48,3 +48,28 @@ Description: light-weight C++23 application framework
  engine under /opt/islands with its launcher, and the islands command
  that runs it.
 
+Package: islands
+Architecture: amd64
+Version: 0.4.4-1
+Priority: optional
+Section: devel
+Maintainer: Ian Miller <ian.miller.gz@gmail.com>
+Installed-Size: 46121
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 4.3), libstdc++6 (>= 13.1), libvulkan1, libx11-6, libxrandr2, libxinerama1, libxcursor1, libxi6, libxkbcommon0, libwayland-client0, libwayland-cursor0, libwayland-egl1, libasound2t64 | libasound2, libpulse0
+Recommends: mesa-vulkan-drivers
+Suggests: g++
+Filename: pool/main/islands_0.4.4-1_amd64.deb
+Size: 6756662
+MD5sum: 3c3135f91be36d66e7ed24a3e3d6831b
+SHA1: 3ab6a931e42192e36593e36060d0afde01b863bd
+SHA256: 2cfdc68bbd2d0e287a4d26f3a6ef12261cfe987ef797b3b0df8a591076eabb9f
+SHA512: 20b5995e88ed9b8f0ee02747663107bfb0ed0bb3589cfdcf7fcfe0af5a2bdc3306ac85874f7c75c69f5438609f8f6a917b18d56c282bba7a92545b9433c13ce0
+Homepage: https://github.com/ian-miller-gz/islands
+Description: light-weight C++23 application framework
+ Islands is a C++23 application framework: an engine core hosting
+ services (window, graphics, audio, terminal, networking) with content
+ delivered as cartridges, bundles of code and assets on one contract,
+ loaded dynamically or linked statically. This package installs the
+ engine under /opt/islands with its launcher, and the islands command
+ that runs it.
+
