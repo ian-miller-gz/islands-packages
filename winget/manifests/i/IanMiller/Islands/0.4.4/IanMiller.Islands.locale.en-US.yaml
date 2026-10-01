@@ -20,5 +20,6 @@ Tags:
   - framework
   - cartridge
   - vulkan
+InstallationNotes: Open a new terminal and run Island (the islands command returns with the next release).
 ManifestType: defaultLocale
 ManifestVersion: 1.12.0

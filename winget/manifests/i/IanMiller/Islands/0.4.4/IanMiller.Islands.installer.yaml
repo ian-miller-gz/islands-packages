@@ -4,6 +4,7 @@ PackageVersion: 0.4.4
 MinimumOSVersion: 10.0.22000.0
 InstallerType: zip
 NestedInstallerType: portable
+ArchiveBinariesDependOnPath: true
 NestedInstallerFiles:
   - RelativeFilePath: islands\build\Island.exe
     PortableCommandAlias: islands
