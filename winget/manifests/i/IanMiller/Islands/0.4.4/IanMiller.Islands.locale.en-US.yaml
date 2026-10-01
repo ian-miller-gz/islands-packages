@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+PackageIdentifier: IanMiller.Islands
+PackageVersion: 0.4.4
+PackageLocale: en-US
+Publisher: Ian Miller
+PublisherUrl: https://github.com/ian-miller-gz
+PublisherSupportUrl: https://github.com/ian-miller-gz/islands/issues
+PackageName: Islands
+PackageUrl: https://github.com/ian-miller-gz/islands
+License: AGPL-3.0-or-later
+LicenseUrl: https://github.com/ian-miller-gz/islands/blob/0.4.4/LICENSE
+Moniker: islands
+ReleaseNotesUrl: https://github.com/ian-miller-gz/islands-packages/releases/tag/0.4.4
+ShortDescription: Application engine and launcher that installs apps from a store (early beta)
+Description: |-
+  Islands is an application engine with a launcher that installs apps
+  from store. In early beta: `islands` opens launcher.
+Tags:
+  - engine
+  - framework
+  - cartridge
+  - vulkan
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
