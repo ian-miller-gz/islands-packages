@@ -59,6 +59,49 @@
        "InstallerSha256": "4ec12bd34ce78fe0e058dfdddc382598b2e33c6c27264548beb19de5fbb44910"
       }
      ]
+    },
+    {
+     "PackageVersion": "0.4.5",
+     "DefaultLocale": {
+      "PackageLocale": "en-US",
+      "Publisher": "Ian Miller",
+      "PublisherUrl": "https://github.com/ian-miller-gz",
+      "PublisherSupportUrl": "https://github.com/ian-miller-gz/islands/issues",
+      "PackageName": "Islands",
+      "PackageUrl": "https://github.com/ian-miller-gz/islands",
+      "License": "AGPL-3.0-or-later",
+      "LicenseUrl": "https://github.com/ian-miller-gz/islands/blob/0.4.5/LICENSE",
+      "Moniker": "islands",
+      "ReleaseNotesUrl": "https://github.com/ian-miller-gz/islands-packages/releases/tag/0.4.5",
+      "ShortDescription": "Application engine and launcher that installs apps from a store (early beta)",
+      "Description": "Islands is an application engine with a launcher that installs apps\nfrom store. In early beta: `islands` opens launcher.",
+      "Tags": [
+       "engine",
+       "framework",
+       "cartridge",
+       "vulkan"
+      ]
+     },
+     "Locales": [],
+     "Installers": [
+      {
+       "MinimumOSVersion": "10.0.22000.0",
+       "InstallerType": "zip",
+       "NestedInstallerType": "portable",
+       "NestedInstallerFiles": [
+        {
+         "RelativeFilePath": "islands\\build\\Island.exe",
+         "PortableCommandAlias": "islands"
+        }
+       ],
+       "Commands": [
+        "islands"
+       ],
+       "Architecture": "x64",
+       "InstallerUrl": "https://github.com/ian-miller-gz/islands-packages/releases/download/0.4.5/islands-0.4.5-windows-x64.zip",
+       "InstallerSha256": "adcd9697b3bc76c6cf6f4f41d04beea9be6b38bfec304162e0047d260e7a6a9a"
+      }
+     ]
     }
    ]
   }
