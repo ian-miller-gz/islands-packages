@@ -6,8 +6,8 @@ class Islands < Formula
 
   desc "Light-weight C++23 application framework hosting content as cartridges"
   homepage "https://github.com/ian-miller-gz/islands"
-  url "https://github.com/ian-miller-gz/islands-packages/releases/download/0.4.5/islands-0.4.5-src.tar.gz"
-  sha256 "190fbf36e252e8d405ddab5b9f1133337815316646949788a79b86215410870f"
+  url "https://github.com/ian-miller-gz/islands-packages/releases/download/0.4.6/islands-0.4.6-src.tar.gz"
+  sha256 "7e946b0c49e3120d5a5203f13f9ff53b9bb73b4ab58ee24f5b12d2ee4873e945"
   license "AGPL-3.0-or-later"
 
   depends_on "cmake" => :build
@@ -35,8 +35,8 @@ class Islands < Formula
   depends_on "wayland"
 
   resource "installer" do
-    url "https://github.com/ian-miller-gz/islands-packages/releases/download/0.4.5/islands-install-0.4.5.tar.gz"
-    sha256 "bc85879b0f0bbb3a619c4949571abb09036d3201c7cad3236b3c4333832b596b"
+    url "https://github.com/ian-miller-gz/islands-packages/releases/download/0.4.6/islands-install-0.4.6.tar.gz"
+    sha256 "3cdb1f449177bd5dd4a109801dbcbc698a5aafecb190dc87dd1a39119af47ce7"
   end
 
   resource "pyyaml" do
