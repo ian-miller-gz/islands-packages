@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+PackageIdentifier: IanMiller.Islands
+PackageVersion: 0.4.7
+MinimumOSVersion: 10.0.17763.0
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+  - RelativeFilePath: islands\build\islands.exe
+    PortableCommandAlias: islands
+Commands:
+  - islands
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/ian-miller-gz/islands-packages/releases/download/0.4.7/islands-0.4.7-windows-x64.zip
+    InstallerSha256: 829579cc6561af4c9e17edeb86a66cf1c6dd0281931d6cb18c17c974057c4580
+ManifestType: installer
+ManifestVersion: 1.12.0
